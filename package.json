@@ -1,0 +1,19 @@
+{
+  "name": "rorbot-discord",
+  "version": "1.0.0",
+  "description": "A bot that tracks the growth of users as they study Rhapsody of Realities via discord",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app",
+    "start": "node app"
+  },
+  "author": "Elijah Trillionz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "discord.js": "^13.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
